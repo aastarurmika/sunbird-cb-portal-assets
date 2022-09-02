@@ -329,7 +329,7 @@
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp.igot-dev.in/"
+      "url": "https://cbp-aastrika-stage.tarento.com/"
     },
     "feature_cbc": {
       "accessKey": "",
@@ -371,7 +371,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://mdo.igot-dev.in/"
+      "url": "https://org-aastrika-stage.tarento.com"
     },
     "feature_spv": {
       "accessKey": "",
@@ -391,7 +391,7 @@
       "status": "live",
       "toolTip": "SPV",
       "shortName": "SPV",
-      "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+      "url": "https://admin-aastrika-stage.tarento.com/"
     },
     "feature_create": {
       "accessKey": "",
@@ -543,7 +543,7 @@
       "show": true,
       "status": "live",
       "toolTip": "Profile",
-      "url": "https://aastrika-sb.idc.tarento.com/app/profile/dashboard",
+      "url": "https://org-aastrika-stage.tarento.com/app/home/welcome",
       "shortName": "Profile"
     },
     "feature_profile_update": {

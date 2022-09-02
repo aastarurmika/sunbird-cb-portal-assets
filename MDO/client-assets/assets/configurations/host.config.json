@@ -63,7 +63,7 @@
         "clientId": "portal",
         "key": "ws-kc-token-storage",
         "realm": "aastar",
-        "url": "https://aastrika-sb-mdo.idc.tarento.com/"
+        "url": "https://org-aastrika-stage.tarento.com/"
     },
     "locals": [
         {
