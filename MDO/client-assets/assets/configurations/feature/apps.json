@@ -370,7 +370,7 @@
       "status": "live",
       "toolTip": "MDO",
       "shortName": "MDP",
-      "url": "https://org-aastrika-stage.tarento.com/"
+      "url": "https://aastrika-stage.tarento.com/"
     },
     "feature_spv": {
       "accessKey": "",
@@ -401,7 +401,7 @@
         "igot"
       ],
       "isExternal": "true",
-      "name": "Karmayogi user",
+      "name": "Learner Portal",
       "permission": [
         "public"
       ],
