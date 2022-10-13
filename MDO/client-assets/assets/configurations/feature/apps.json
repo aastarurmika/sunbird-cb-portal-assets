@@ -339,16 +339,17 @@
         "cbc"
       ],
       "isExternal": "true",
-      "name": "CBC",
+      "name": "Sphere",
       "permission": [
         "cbc_admin",
-        "CBC_MEMBER"
+        "CBC_MEMBER",
+        "public"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://cbp-aastrika-stage.tarento.com/"
+      "url": "https://aastrika-stage.tarento.com/"
     },
     "feature_mdo": {
       "accessKey": "",
@@ -398,18 +399,19 @@
       "iconType": "mat-icon",
       "id": "feature_igot",
       "keywords": [
-        "igot"
+        "learner"
       ],
       "isExternal": "true",
       "name": "Learner Portal",
       "permission": [
+        "mdo_admin",
         "public"
       ],
       "show": true,
       "status": "live",
       "toolTip": "Author",
       "shortName": "Author",
-      "url": "https://igot-dev.in/"
+      "url": "https://aastrika-stage.tarento.com/"
     },
     "feature_create": {
       "accessKey": "",
