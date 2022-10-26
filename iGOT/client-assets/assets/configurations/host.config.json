@@ -75,6 +75,16 @@
           ],
           "path": "",
           "isRTL": false
+      },
+      {
+          "isAvailable": true,
+          "isEnabled": true,
+          "locals": [
+              "hi",
+              "hi-IN"
+          ],
+          "path": "hi",
+          "isRTL": false
       }
   ],
   "logos": {
@@ -161,5 +171,6 @@
   },
   "tourVideo": {
       "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
-  }
+  },
+  "googleAuth":true
 }
