@@ -57,7 +57,7 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "Aastar is a learning solution accessible anytime, anywhere and on any device. It enables organizations to focus on training their talent of today, to be ready for tomorrow",
+    "description": "Sphere is a collaborative digital learning platform designed to enable health system strengthening and capacity building at scale.",
     "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest"
   },
   "keycloak": {
