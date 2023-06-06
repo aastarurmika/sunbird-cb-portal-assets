@@ -167,7 +167,7 @@
     "aboutHeader": "/assets/instances/eagle/about-page/about-header.jpg",
     "poweredBy": "eagle eagle",
     "landingLogo": "",
-"appBottomNav": "/assets/instances/eagle/app_logos/source.png"
+    "appBottomNav": "/assets/instances/eagle/app_logos/source.png"
   },
   "sources": [
     {
@@ -345,24 +345,32 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_notification",
+            "actionBtnId": "feature_competency",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_search",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_account_details",
             "config": {
               "type": "card-mini"
             }
           }
         }
       ],
-      "right": [
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        }
-      ]
+      "right": []
     },
     "secondary": {
       "left": [

@@ -112,8 +112,8 @@
     },
     "feature_home": {
       "accessKey": "",
-      "icon": "home",
-      "iconType": "mat-icon",
+      "icon": "/fusion-assets/icons/Home.svg",
+      "iconType": "image",
       "id": "feature_home",
       "keywords": [
         "home",
@@ -127,7 +127,8 @@
       "status": "live",
       "toolTip": "Dashboard",
       "url": "/page/home",
-      "shortName": "Home"
+      "shortName": "Home",
+      "src": "/fusion-assets/icons/Home.svg"
     },
     "feature_badges": {
       "accessKey": "",
@@ -408,8 +409,8 @@
     },
     "feature_search": {
       "accessKey": "",
-      "icon": "search",
-      "iconType": "mat-icon",
+      "icon": "/fusion-assets/icons/Search.svg",
+      "iconType": "image",
       "id": "feature_search",
       "keywords": [
         "search",
@@ -424,7 +425,9 @@
       "status": "live",
       "toolTip": "Search",
       "url": "/app/search/home",
-      "shortName": "Search"
+      "shortName": "Search",
+      "src": "/fusion-assets/icons/Search.svg"
+
     },
     "feature_settings": {
       "accessKey": "I",
@@ -447,14 +450,19 @@
       "url": "/app/profile/settings",
       "shortName": "Settings"
     },
-"feature_blogs": {
+    "feature_blogs": {
       "accessKey": "Z",
       "icon": "insert_drive_file",
       "iconType": "mat-icon",
       "id": "feature_blogs",
-      "keywords": ["blogs", "leader blogs"],
+      "keywords": [
+        "blogs",
+        "leader blogs"
+      ],
       "name": "Blogs",
-      "permission": ["BLOGS"],
+      "permission": [
+        "BLOGS"
+      ],
       "show": true,
       "status": "live",
       "toolTip": "Blogs",
@@ -462,15 +470,21 @@
       "description": "Read and write big ideas and important stories",
       "shortName": "Blogs"
     },
-"feature_Q&A": {
+    "feature_Q&A": {
       "accessKey": "",
       "description": "Question and answer hub for professional and enthusiast programmers.",
       "icon": "question_answer",
       "iconType": "mat-icon",
       "id": "feature_Q&A",
-      "keywords": ["question and answer", "qna", "q and a"],
+      "keywords": [
+        "question and answer",
+        "qna",
+        "q and a"
+      ],
       "name": "Question and Answer",
-      "permission": ["QUESTION_AND_ANSWER"],
+      "permission": [
+        "QUESTION_AND_ANSWER"
+      ],
       "show": true,
       "status": "alpha",
       "toolTip": "Question and Answer",
@@ -506,7 +520,7 @@
       "id": "feature_mdo",
       "isExternal": "true",
       "keywords": [
-          "mdo"
+        "mdo"
       ],
       "name": "MDO",
       "permission": [
@@ -526,7 +540,7 @@
       "id": "feature_spv",
       "isExternal": "true",
       "keywords": [
-          "spv"
+        "spv"
       ],
       "name": "SPV",
       "permission": [
@@ -538,6 +552,44 @@
       "status": "live",
       "toolTip": "SPV",
       "url": "https://admin-sphere.aastrika.org/"
+    },
+    "feature_competency": {
+      "accessKey": "",
+      "icon": "/fusion-assets/icons/competency.svg",
+      "iconType": "image",
+      "id": "feature_competency",
+      "keywords": [
+        "Competency"
+      ],
+      "name": "Competency",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Competency",
+      "url": "/app/user/competency",
+      "shortName": "Competency",
+      "src": "/fusion-assets/icons/Competency_home.svg"
+    },
+    "feature_account_details": {
+      "accessKey": "",
+      "icon": "/fusion-assets/icons/Account.svg",
+      "iconType": "image",
+      "id": "feature_account_details",
+      "keywords": [
+        "Account"
+      ],
+      "name": "Account",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "Account",
+      "url": "/app/profile-view",
+      "shortName": "Competency",
+      "src":  "/fusion-assets/icons/Account.svg"
     }
   },
   "groups": [
