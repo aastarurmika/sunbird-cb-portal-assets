@@ -128,6 +128,12 @@
       "sourceId": "",
       "logo": "",
       "about": "White Ribbon Alliance India"
+    },
+    {
+      "sourceName": "UPTSU",
+      "sourceId": "",
+      "logo": "https://sunbirdcontent.s3-ap-south-1.amazonaws.com/content/do_1138170665367470081518/artifact/do_1138170665367470081518_1686653630467_uptsu1686653630183.png",
+      "about": "UPTSU"
     }
   ]
 }
