@@ -419,5 +419,11 @@
   },
   "tourVideo": {
     "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
+  },
+  "bannerStats": {
+    "lang_options": "12",
+    "cne_points": "200",
+    "cert_course": "50",
+    "learner_onboard": "204"
   }
 }
