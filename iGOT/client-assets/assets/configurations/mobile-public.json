@@ -55,7 +55,7 @@
                         }
                       },
                       "stripConfig": {
-                        "cardSubType": "standard",
+                        "cardSubType": "card-badges",
                         "postCardForSearch": true
                       }, 
                       "filters": [],
