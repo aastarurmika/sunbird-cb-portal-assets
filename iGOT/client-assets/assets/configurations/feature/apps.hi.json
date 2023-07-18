@@ -579,13 +579,13 @@
       "keywords": [
         "Account"
       ],
-      "name": "Account",
+      "name": "अकाउंट",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Account",
+      "toolTip": "अकाउंट",
       "url": "/app/profile-view",
       "shortName": "Competency",
       "src": "/fusion-assets/icons/Account.svg"
