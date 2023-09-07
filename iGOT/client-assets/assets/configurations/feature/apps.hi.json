@@ -12,7 +12,7 @@
         "frequently answered questions",
         "frequently asked questions"
       ],
-      "name": "Help & Contact",
+      "name": "सहायता एवं संपर्क",
       "permission": [
         "FAQ"
       ],
@@ -32,7 +32,7 @@
         "user",
         "tenant"
       ],
-      "name": "Create",
+      "name": "बनाएं",
       "permission": [
         "admin"
       ],
@@ -59,13 +59,13 @@
         "conditions of sale",
         "terms and conditions of sale"
       ],
-      "name": "Terms & Condition",
+      "name": "नियम व शर्त",
       "permission": [
         ""
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Terms & Condition",
+      "toolTip": "नियम व शर्त",
       "url": "/app/tnc",
       "shortName": "T & C"
     },
@@ -80,13 +80,13 @@
         "about",
         "about us"
       ],
-      "name": "About Us",
+      "name": "हमारे बारे में",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "About Us",
+      "toolTip": "हमारे बारे में",
       "url": "/app/info/about",
       "shortName": "About"
     },
@@ -119,13 +119,13 @@
         "home",
         "dashboard"
       ],
-      "name": "Home",
+      "name": "होम",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Dashboard",
+      "toolTip": "होम",
       "url": "/page/home",
       "shortName": "Home",
       "src": "/fusion-assets/icons/Home.svg"
@@ -353,13 +353,13 @@
         "user",
         "me"
       ],
-      "name": "Account",
+      "name": "अकाउंट",
       "permission": [
         "PROFILE"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Account",
+      "toolTip": "अकाउंट",
       "url": "/app/features",
       "shortName": "Account"
     },
@@ -417,17 +417,16 @@
         "find",
         "explore"
       ],
-      "name": "Search",
+      "name": "खोज",
       "permission": [
         "SEARCH"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Search",
+      "toolTip": "खोज",
       "url": "/app/search/home",
       "shortName": "Search",
       "src": "/fusion-assets/icons/Search.svg"
-
     },
     "feature_settings": {
       "accessKey": "I",
@@ -561,13 +560,13 @@
       "keywords": [
         "Competency"
       ],
-      "name": "Competency",
+      "name": "योग्यता",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Competency",
+      "toolTip": "योग्यता",
       "url": "/app/user/competency",
       "shortName": "Competency",
       "src": "/fusion-assets/icons/Competency_home.svg"
@@ -580,16 +579,16 @@
       "keywords": [
         "Account"
       ],
-      "name": "Account",
+      "name": "अकाउंट",
       "permission": [
         "ABOUT_US"
       ],
       "show": true,
       "status": "live",
-      "toolTip": "Account",
+      "toolTip": "अकाउंट",
       "url": "/app/profile-view",
       "shortName": "Competency",
-      "src":  "/fusion-assets/icons/Account.svg"
+      "src": "/fusion-assets/icons/Account.svg"
     }
   },
   "groups": [

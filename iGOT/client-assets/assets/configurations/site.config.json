@@ -57,7 +57,8 @@
     }
   ],
   "indexHtmlMeta": {
-    "description": "Sphere is a collaborative digital learning platform designed to enable health system strengthening and capacity building at scale."
+    "description": "Sphere is a collaborative digital learning platform designed to enable health system strengthening and capacity building at scale.",
+    "webmanifest": "/assets/configurations/learning.aastra.org/manifest/manifest.webmanifest"
   },
   "keycloak": {
     "bearerExcludedUrls": [
@@ -344,24 +345,32 @@
         {
           "type": "featureButton",
           "config": {
-            "actionBtnId": "feature_notification",
+            "actionBtnId": "feature_competency",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_search",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
+            "actionBtnId": "feature_account_details",
             "config": {
               "type": "card-mini"
             }
           }
         }
       ],
-      "right": [
-        {
-          "type": "featureButton",
-          "config": {
-            "actionBtnId": "feature_profile",
-            "config": {
-              "type": "card-mini"
-            }
-          }
-        }
-      ]
+      "right": []
     },
     "secondary": {
       "left": [
@@ -410,5 +419,11 @@
   },
   "tourVideo": {
     "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
+  },
+  "bannerStats": {
+    "certificates_issues": "1900",
+    "course": "200",
+    "cert_course": "20",
+    "learner_onboard": "18000"
   }
 }

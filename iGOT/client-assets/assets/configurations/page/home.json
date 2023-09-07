@@ -85,6 +85,61 @@
               "widgetData": {
                 "strips": [
                   {
+                    "key": "continueLearning",
+                    "title": "My Courses",
+                    "noDataWidget": {
+                      "widgetType": "element",
+                      "widgetSubType": "elementHtml",
+                      "widgetData": {
+                        "html": "<p class=\"ws-mat-primary-text\">Learning activities you start will appear here.</p>"
+                      }
+                    },
+                    "info": {
+                      "mode": "below",
+                      "visibilityMode": "hidden",
+                      "icon": {
+                        "icon": "info",
+                        "scale": 0.8
+                      },
+                      "widget": {
+                        "widgetType": "element",
+                        "widgetSubType": "elementHtml",
+                        "widgetData": {
+                          "html": "<p class=\"ws-mat-primary-text\">These are the learning activities you’ve started but haven’t finished yet. Ready to keep going?</p>"
+                        }
+                      }
+                    },
+                    "stripConfig": {
+                      "cardSubType": "card-badges",
+                      "postCardForSearch": true
+                    }, 
+                    "filters": [],
+                    "request": {
+                      "enrollmentList": {
+                        "path": "/apis/proxies/v8/learner/course/v1/user/enrollment/list/<id>",
+                        "queryParams": {
+                          "orgdetails": "orgName,email",
+                          "licenseDetails": "name,description,url",
+                          "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,trackable,primaryCategory,thumbnail,posterImage,duration,creatorLogo,license",
+                          "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        [
+          {
+            "dimensions": {},
+            "widget": {
+              "widgetType": "contentStrip",
+              "widgetSubType": "contentStripMultiple",
+              "widgetData": {
+                "strips": [
+                  {
                     "key": "latest",
                     "title": "Latest",
                     "info": {
@@ -103,7 +158,7 @@
                       }
                     },
                     "stripConfig": {
-                      "cardSubType": "standard",
+                      "cardSubType": "card-badges",
                       "postCardForSearch": true
                     },
                     "filters": [],
@@ -132,62 +187,7 @@
               }
             }
           }
-        ],
-        [
-          {
-            "dimensions": {},
-            "widget": {
-              "widgetType": "contentStrip",
-              "widgetSubType": "contentStripMultiple",
-              "widgetData": {
-                "strips": [
-                  {
-                    "key": "continueLearning",
-                    "title": "My Courses",
-                    "noDataWidget": {
-                      "widgetType": "element",
-                      "widgetSubType": "elementHtml",
-                      "widgetData": {
-                        "html": "<p class=\"ws-mat-primary-text\">Learning activities you start will appear here.</p>"
-                      }
-                    },
-                    "info": {
-                      "mode": "below",
-                      "visibilityMode": "hidden",
-                      "icon": {
-                        "icon": "info",
-                        "scale": 0.8
-                      },
-                      "widget": {
-                        "widgetType": "element",
-                        "widgetSubType": "elementHtml",
-                        "widgetData": {
-                          "html": "<p class=\"ws-mat-primary-text\">These are the learning activities you’ve started but haven’t finished yet. Ready to keep going?</p>"
-                        }
-                      }
-                    },
-                    "stripConfig": {
-                      "cardSubType": "standard",
-                      "postCardForSearch": true
-                    }, 
-                    "filters": [],
-                    "request": {
-                      "enrollmentList": {
-                        "path": "/apis/proxies/v8/learner/course/v1/user/enrollment/list/<id>",
-                        "queryParams": {
-                          "orgdetails": "orgName,email",
-                          "licenseDetails": "name,description,url",
-                          "fields": "contentType,name,channel,mimeType,appIcon,resourceType,identifier,trackable,objectType,organisation,pkgVersion,trackable,primaryCategory,thumbnail,posterImage,duration,creatorLogo,license",
-                          "batchDetails": "name,endDate,startDate,status,enrollmentType,createdBy,certificates"
-                        }
-                      }
-                    }
-                  }
-                ]
-              }
-            }
-          }
-        ]
+        ]        
       ]
     }
   }
