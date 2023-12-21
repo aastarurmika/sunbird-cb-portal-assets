@@ -135,6 +135,18 @@
       "sourceId": "",
       "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/orgLogos/uptsu-logo.png",
       "about": "UPTSU"
+    },
+    {
+      "sourceName": "C-Safe",
+      "sourceId": "",
+      "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/orgLogos/csafe.jpg",
+      "about": "C-Safe"
+    },
+    {
+      "sourceName": "Path",
+      "sourceId": "",
+      "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/orgLogos/PATH_Logo_Color.png",
+      "about": "Path"
     }
   ]
 }
