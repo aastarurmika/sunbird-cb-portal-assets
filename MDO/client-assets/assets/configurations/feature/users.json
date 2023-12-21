@@ -42,22 +42,6 @@
                 "enabled": true,
                 "routerLink": "/app/home/roles-access"
             },
-            {
-              "name": "Self Assessment",
-              "key": "self-assessment",
-              "fragment": false,
-              "render": true,
-              "badges": {
-                  "enabled": false,
-                  "uri": ""
-              },
-              "enabled": true,
-              "routerLink": "/app/home/self-assessment",
-              "requiredRoles": [
-                  "admin",
-                  "mdo_admin"
-              ]
-          },
           {
               "name": "Competencies",
               "key": "competencies",

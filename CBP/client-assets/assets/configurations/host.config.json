@@ -154,6 +154,12 @@
     },
     "tourVideo": {
       "en": "/assets/instances/eagle/videos/Eagle_New_AppTour_Final.mp4"
+    },
+    "uploadImageInto": {
+      "first": "https://sunbirdcontent.s3-ap-south-1.amazonaws.com/content/do_113927479679483904177/artifact/do_113927479679483904177_1700131797420_download1700131796741.jpg",
+      "second": "https://sunbirdcontent.s3-ap-south-1.amazonaws.com/content/do_113927480051605504178/artifact/do_113927480051605504178_1700131842922_download1700131842176.png",
+      "third": "https://sunbirdcontent.s3-ap-south-1.amazonaws.com/content/do_113927480246878208179/artifact/do_113927480246878208179_1700131866551_images1700131865993.jpg"
+
     }
   }
   
