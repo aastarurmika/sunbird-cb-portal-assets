@@ -345,6 +345,15 @@
         {
           "type": "featureButton",
           "config": {
+            "actionBtnId": "feature_mycourses",
+            "config": {
+              "type": "card-mini"
+            }
+          }
+        },
+        {
+          "type": "featureButton",
+          "config": {
             "actionBtnId": "feature_competency",
             "config": {
               "type": "card-mini"

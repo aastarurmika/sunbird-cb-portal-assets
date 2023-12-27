@@ -552,6 +552,25 @@
       "toolTip": "SPV",
       "url": "https://admin-sphere.aastrika.org/"
     },
+    "feature_mycourses": {
+      "accessKey": "",
+      "icon": "/fusion-assets/icons/material-symbols.svg",
+      "iconType": "image",
+      "id": "feature_mycourses",
+      "keywords": [
+        "My Courses"
+      ],
+      "name": "आपके पाठ्यक्रम",
+      "permission": [
+        "ABOUT_US"
+      ],
+      "show": true,
+      "status": "live",
+      "toolTip": "आपके पाठ्यक्रम",
+      "url": "/app/user/my_courses",
+      "shortName": "My Courses",
+      "src": "/fusion-assets/icons/material-symbols.svg"
+    },
     "feature_competency": {
       "accessKey": "",
       "icon": "/fusion-assets/icons/competency.svg",
