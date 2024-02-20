@@ -147,6 +147,13 @@
       "sourceId": "",
       "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/orgLogos/PATH_Logo_Color.png",
       "about": "Path"
+    },
+    {
+      "sourceName": "KLE Institute of Physiotherapy,Belgavi",
+      "sourceId": "",
+      "logo": "",
+      "about": "KLE Institute of Physiotherapy,Belgavi",
+      "taggedSourceName": ""
     }
   ]
 }
