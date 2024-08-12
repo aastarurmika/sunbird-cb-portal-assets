@@ -1,6 +1,13 @@
 {
   "sources": [
     {
+      "sourceName": "Aastrika Foundation",
+      "sourceId": "",
+      "logo": "https://www.aastrika.org/wp-content/uploads/2023/09/aastrika-foundation-logo.svg",
+      "about": "Aastrika Foundation",
+      "taggedSourceName": "Others"
+    },
+    {
       "sourceName": "Fernandez Foundation",
       "sourceId": "",
       "logo": "https://aastar-assets.s3.ap-south-1.amazonaws.com/orgLogos/fernandez.jpg",
